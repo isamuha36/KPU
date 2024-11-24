@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#DDDDDD"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp">
+
+    <!-- Nomor Data -->
+    <TextView
+        android:id="@+id/tvNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="16sp"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="center_vertical" />
+
+    <!-- Nama Pemilih -->
+    <TextView
+        android:id="@+id/tvNamaPemilih"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Roy Kafabih SIGMA SKIBIDI"
+        android:textSize="16sp"
+        android:layout_gravity="center_vertical" />
+
+    <!-- Tombol Edit -->
+    <ImageButton
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@android:drawable/ic_menu_edit" />
+
+    <!-- Tombol Hapus -->
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@android:drawable/ic_menu_delete" />
+
+    <!-- Tombol Lihat Detail -->
+    <ImageButton
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@android:drawable/ic_menu_view" />
+
+</LinearLayout>
